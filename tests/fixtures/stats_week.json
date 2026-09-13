@@ -1,0 +1,9 @@
+{
+  "4034": { "gp": 1, "pts_std": 12.4, "pts_half_ppr": 15.9, "pts_ppr": 19.4, "rush_yd": 84, "rec": 7 },
+  "4046": { "gp": 1, "pts_std": 21.3, "pts_half_ppr": 21.3, "pts_ppr": 21.3, "pass_yd": 301, "pass_td": 2 },
+  "5849": { "gp": 1, "pts_std": 0, "pts_half_ppr": 0, "pts_ppr": 0 },
+  "1339": { "gp": 0 },
+  "DAL":  { "gp": 1, "pts_std": 9, "pts_half_ppr": 9, "pts_ppr": 9 },
+  "TEAM_SF": { "gp": 1, "pts_std": 74.1, "pts_half_ppr": 86.6, "pts_ppr": 99.1 },
+  "7777": null
+}

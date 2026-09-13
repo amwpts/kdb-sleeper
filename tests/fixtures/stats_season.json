@@ -1,0 +1,71 @@
+{
+  "4034": {
+    "gp": 3,
+    "gms_active": 3,
+    "pts_std": 41.2,
+    "pts_half_ppr": 48.7,
+    "pts_ppr": 56.2,
+    "rush_yd": 289,
+    "rush_td": 3,
+    "rec": 15,
+    "rec_yd": 132
+  },
+  "4046": {
+    "gp": 3,
+    "gms_active": 3,
+    "pts_std": 62.14,
+    "pts_half_ppr": 62.14,
+    "pts_ppr": 62.14,
+    "pass_yd": 812,
+    "pass_td": 7,
+    "pass_int": 2
+  },
+  "1111": {
+    "gp": 2,
+    "gms_active": 2,
+    "pts_std": 18,
+    "pts_half_ppr": 18,
+    "pts_ppr": 18,
+    "pass_yd": 402
+  },
+  "5849": {
+    "gp": 1,
+    "gms_active": 3,
+    "pts_std": 4.5,
+    "pts_half_ppr": 7,
+    "pts_ppr": 9.5,
+    "rec": 5,
+    "rec_yd": 45
+  },
+  "DAL": {
+    "gp": 3,
+    "pts_std": 22,
+    "pts_half_ppr": 22,
+    "pts_ppr": 22
+  },
+  "2222": {
+    "gp": 0,
+    "gms_active": 0
+  },
+  "1339": {
+    "gp": 2,
+    "pts_std": null,
+    "pts_half_ppr": null,
+    "pts_ppr": null
+  },
+  "8888888": {
+    "gp": 1,
+    "pts_std": 3,
+    "pts_half_ppr": 3,
+    "pts_ppr": 3
+  },
+  "7777": null,
+  "TEAM_SF": {
+    "gp": 1,
+    "pts_std": 74.1,
+    "pts_half_ppr": 86.6,
+    "pts_ppr": 99.1,
+    "pass_yd": 312,
+    "rush_yd": 140
+  }
+}

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>sleeper-kdb browser tests</title>
+    <style>
+      body { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; background: #10131a; color: #e6e9ef; padding: 24px; }
+      h1 { font-size: 18px; }
+      .suite { margin-top: 20px; color: #8b93a7; text-transform: uppercase; letter-spacing: 0.08em; font-size: 12px; }
+      .case { padding: 2px 0; }
+      .pass::before { content: "ok   "; color: #35c07f; }
+      .fail { color: #ff6b6b; }
+      .fail::before { content: "FAIL "; }
+      .detail { color: #ff9d9d; padding-left: 40px; }
+      #summary { margin-top: 24px; font-size: 16px; }
+    </style>
+  </head>
+  <body>
+    <h1>sleeper-kdb browser tests</h1>
+    <div id="output"></div>
+    <div id="summary"></div>
+
+    <script src="../../web/js/tables.js"></script>
+    <script src="../../web/js/format.js"></script>
+    <script src="../../web/js/stats.js"></script>
+    <script src="../../web/js/views/players.js"></script>
+    <script src="harness.js"></script>
+    <script src="logic.test.js"></script>
+    <script>
+      const { passed, failed, results } = TestHarness.summary();
+      const output = document.getElementById("output");
+      let lastSuite = null;
+      for (const result of results) {
+        if (result.suite !== lastSuite) {
+          const heading = document.createElement("div");
+          heading.className = "suite";
+          heading.textContent = result.suite;
+          output.appendChild(heading);
+          lastSuite = result.suite;
+        }
+        const line = document.createElement("div");
+        line.className = "case " + (result.passed ? "pass" : "fail");
+        line.textContent = result.description;
+        output.appendChild(line);
+        if (!result.passed) {
+          const detail = document.createElement("div");
+          detail.className = "detail";
+          detail.textContent = result.detail;
+          output.appendChild(detail);
+        }
+      }
+      const summary = document.getElementById("summary");
+      summary.textContent = `${passed} passed, ${failed} failed`;
+      summary.style.color = failed ? "#ff6b6b" : "#35c07f";
+      document.title = `${failed ? "FAIL" : "PASS"} - sleeper-kdb browser tests`;
+    </script>
+  </body>
+</html>

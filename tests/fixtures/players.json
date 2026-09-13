@@ -1,0 +1,203 @@
+{
+  "4034": {
+    "player_id": "4034",
+    "first_name": "Christian",
+    "last_name": "McCaffrey",
+    "full_name": "Christian McCaffrey",
+    "team": "SF",
+    "position": "RB",
+    "fantasy_positions": [
+      "RB"
+    ],
+    "status": "Active",
+    "injury_status": null,
+    "number": 23,
+    "age": 30,
+    "years_exp": 9,
+    "college": "Stanford"
+  },
+  "4046": {
+    "player_id": "4046",
+    "first_name": "Patrick",
+    "last_name": "Mahomes",
+    "full_name": "Patrick Mahomes",
+    "team": "KC",
+    "position": "QB",
+    "fantasy_positions": [
+      "QB"
+    ],
+    "status": "Active",
+    "injury_status": "Questionable",
+    "number": 15,
+    "age": 30
+  },
+  "SF": {
+    "player_id": "SF",
+    "first_name": "San Francisco",
+    "last_name": "49ers",
+    "team": "SF",
+    "position": "DEF",
+    "fantasy_positions": [
+      "DEF"
+    ],
+    "status": null,
+    "injury_status": null,
+    "number": null,
+    "age": null
+  },
+  "6794": {
+    "player_id": "6794",
+    "first_name": "Wes",
+    "last_name": "Tanner",
+    "full_name": "Wes Tanner",
+    "team": null,
+    "position": "WR",
+    "fantasy_positions": [
+      "WR",
+      "TE"
+    ],
+    "status": "Inactive",
+    "injury_status": "Out",
+    "age": 27
+  },
+  "1339": {
+    "player_id": "1339",
+    "first_name": "Taysom",
+    "last_name": "Hill",
+    "full_name": "Taysom Hill",
+    "team": "NO",
+    "position": "TE",
+    "fantasy_positions": null,
+    "status": "Active",
+    "injury_status": "IR",
+    "number": 7,
+    "age": 35
+  },
+  "0": {
+    "player_id": "0",
+    "first_name": null,
+    "last_name": null,
+    "team": null,
+    "position": null,
+    "status": null
+  },
+  "5849": {
+    "player_id": "5849",
+    "first_name": "Marcus",
+    "last_name": "Reed",
+    "full_name": "Marcus Reed",
+    "team": "BUF",
+    "position": "WR",
+    "fantasy_positions": [
+      "WR"
+    ],
+    "status": "Active",
+    "injury_status": null,
+    "number": 18,
+    "age": 25
+  },
+  "5555": {
+    "player_id": "5555",
+    "first_name": "Dante",
+    "last_name": "Hollis",
+    "full_name": "Dante Hollis",
+    "team": "MIN",
+    "position": "LB",
+    "fantasy_positions": [
+      "LB"
+    ],
+    "status": "Active",
+    "injury_status": null,
+    "number": 54,
+    "age": 28
+  },
+  "1111": {
+    "player_id": "1111",
+    "first_name": "Eli",
+    "last_name": "Rockwell",
+    "full_name": "Eli Rockwell",
+    "team": "PHI",
+    "position": "QB",
+    "fantasy_positions": [
+      "QB"
+    ],
+    "status": "Active",
+    "injury_status": null,
+    "number": 9,
+    "age": 24
+  },
+  "2222": {
+    "player_id": "2222",
+    "first_name": "Andre",
+    "last_name": "Boone",
+    "full_name": "Andre Boone",
+    "team": "DAL",
+    "position": "RB",
+    "fantasy_positions": [
+      "RB"
+    ],
+    "status": "Active",
+    "injury_status": "Questionable",
+    "number": 32,
+    "age": 26
+  },
+  "6666": {
+    "player_id": "6666",
+    "first_name": "Luther",
+    "last_name": "Vance",
+    "full_name": "Luther Vance",
+    "team": "GB",
+    "position": "LB",
+    "fantasy_positions": [
+      "LB"
+    ],
+    "status": "Active",
+    "injury_status": null,
+    "number": 58,
+    "age": 23
+  },
+  "3333": {
+    "player_id": "3333",
+    "first_name": "Grant",
+    "last_name": "Pyle",
+    "full_name": "Grant Pyle",
+    "team": "KC",
+    "position": "OT",
+    "fantasy_positions": [
+      "OT"
+    ],
+    "status": "Active",
+    "injury_status": null,
+    "number": 76,
+    "age": 29
+  },
+  "4444": {
+    "player_id": "4444",
+    "first_name": "Corey",
+    "last_name": "Lang",
+    "full_name": "Corey Lang",
+    "team": null,
+    "position": "WR",
+    "fantasy_positions": [
+      "WR"
+    ],
+    "status": "Inactive",
+    "injury_status": null,
+    "number": null,
+    "age": 31
+  },
+  "DAL": {
+    "player_id": "DAL",
+    "first_name": "Dallas",
+    "last_name": "Cowboys",
+    "team": "DAL",
+    "position": "DEF",
+    "fantasy_positions": [
+      "DEF"
+    ],
+    "status": null,
+    "injury_status": null,
+    "number": null,
+    "age": null
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "league_id": "1124567890123456789",
+    "name": "Sunday Scaries",
+    "season": "2026",
+    "status": "in_season",
+    "total_rosters": 4,
+    "avatar": "a1b2c3d4e5f6",
+    "previous_league_id": "998877665544332211"
+  },
+  {
+    "league_id": "3300000000000000009",
+    "name": "Work Dynasty",
+    "season": "2026",
+    "status": "in_season",
+    "total_rosters": 10,
+    "avatar": null,
+    "previous_league_id": null
+  }
+]

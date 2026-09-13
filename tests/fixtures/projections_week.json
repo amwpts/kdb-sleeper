@@ -1,0 +1,9 @@
+{
+  "4034": { "gp": 1, "pts_std": 11.1, "pts_half_ppr": 14.2, "pts_ppr": 17.3 },
+  "4046": { "gp": 1, "pts_std": 18.8, "pts_half_ppr": 18.8, "pts_ppr": 18.8 },
+  "5849": { "gp": 1, "pts_std": 6.5, "pts_half_ppr": 8, "pts_ppr": 9.5 },
+  "1111": { "gp": 1, "pts_std": 15, "pts_half_ppr": 15, "pts_ppr": 15 },
+  "2222": { "pts_std": null, "pts_half_ppr": null, "pts_ppr": null },
+  "TEAM_SF": { "gp": 1, "pts_std": 70, "pts_half_ppr": 80, "pts_ppr": 90 },
+  "9999": null
+}

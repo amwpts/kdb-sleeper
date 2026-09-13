@@ -1,0 +1,64 @@
+[
+  {
+    "league_id": "1124567890123456789",
+    "roster_id": 1,
+    "owner_id": "300000000000000001",
+    "players": ["4046", "4034", "6794", "2133", "SF", "1339", "5849"],
+    "starters": ["4046", "4034", "6794", "2133", "0", "SF"],
+    "reserve": ["1339"],
+    "taxi": null,
+    "settings": {
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "fpts": 342,
+      "fpts_decimal": 56,
+      "fpts_against": 318,
+      "fpts_against_decimal": 4,
+      "waiver_position": 3
+    },
+    "metadata": { "streak": "1W", "record": "WWL" }
+  },
+  {
+    "league_id": "1124567890123456789",
+    "roster_id": 2,
+    "owner_id": null,
+    "players": ["1234", "5555"],
+    "starters": ["1234", "5555"],
+    "reserve": null,
+    "taxi": null,
+    "settings": {
+      "wins": 0,
+      "losses": 3,
+      "fpts": 210,
+      "fpts_against": 401,
+      "fpts_against_decimal": 90
+    }
+  },
+  {
+    "league_id": "1124567890123456789",
+    "roster_id": 3,
+    "owner_id": "300000000000000003",
+    "players": null,
+    "starters": null,
+    "reserve": null,
+    "settings": {}
+  },
+  {
+    "league_id": "1124567890123456789",
+    "roster_id": 4,
+    "owner_id": "300000000000000004",
+    "players": ["7777"],
+    "starters": ["7777", "9999"],
+    "reserve": ["7777"],
+    "settings": {
+      "wins": 1,
+      "losses": 2,
+      "ties": 1,
+      "fpts": 289,
+      "fpts_decimal": 5,
+      "fpts_against": 300,
+      "fpts_against_decimal": 0
+    }
+  }
+]

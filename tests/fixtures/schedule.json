@@ -1,0 +1,9 @@
+[
+  { "status": "complete", "date": "2026-09-10", "home": "KC",  "week": 1, "game_id": "202610101", "away": "SF" },
+  { "status": "complete", "date": "2026-09-13", "home": "BUF", "week": 1, "game_id": "202610102", "away": "NO" },
+  { "status": "pre_game", "date": "2026-09-17", "home": "SF",  "week": 2, "game_id": "202610201", "away": "BUF" },
+  { "status": "pre_game", "date": "2026-09-20", "home": "NO",  "week": 2, "game_id": "202610202", "away": "DAL" },
+  { "status": "pre_game", "date": "2026-09-24", "home": "DAL", "week": 3, "game_id": "202610301", "away": "KC" },
+  { "status": "pre_game", "date": "2026-09-27", "home": "BUF", "week": 3, "game_id": "202610302", "away": "SF" },
+  { "status": "pre_game", "date": null, "home": null, "week": 4, "game_id": "202610401", "away": "KC" }
+]

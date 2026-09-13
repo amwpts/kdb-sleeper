@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fantasy League</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="header-bar">
+        <div class="identity">
+          <div class="crest" id="league-crest" aria-hidden="true">--</div>
+          <div class="identity-text">
+            <h1 id="league-name">Loading league</h1>
+            <p class="identity-meta">
+              <span class="chip" id="season-chip">Season --</span>
+              <span class="chip" id="week-chip">Week --</span>
+              <span class="chip chip-quiet" id="teams-chip">-- teams</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="header-actions">
+          <div class="refresh-info">
+            <span class="refresh-label">Last refreshed</span>
+            <span class="refresh-value" id="last-refreshed">never</span>
+          </div>
+          <button type="button" id="refresh-button" class="button button-primary">
+            <span class="spinner" aria-hidden="true"></span>
+            <span id="refresh-label">Refresh</span>
+          </button>
+        </div>
+      </div>
+
+      <nav class="tabs" aria-label="Sections">
+        <button type="button" class="tab" data-section="overview">Overview</button>
+        <button type="button" class="tab" data-section="standings">Standings</button>
+        <button type="button" class="tab" data-section="rosters">Rosters</button>
+        <button type="button" class="tab" data-section="matchups">Matchups</button>
+        <button type="button" class="tab" data-section="players">Players</button>
+      </nav>
+    </header>
+
+    <main id="view" class="view"></main>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <script src="js/tables.js"></script>
+    <script src="js/format.js"></script>
+    <script src="js/stats.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/views/setup.js"></script>
+    <script src="js/views/overview.js"></script>
+    <script src="js/views/standings.js"></script>
+    <script src="js/views/rosters.js"></script>
+    <script src="js/views/matchups.js"></script>
+    <script src="js/views/players.js"></script>
+    <script src="js/views/compare.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

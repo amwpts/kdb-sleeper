@@ -1,0 +1,43 @@
+[
+  {
+    "user_id": "300000000000000001",
+    "username": "gridironGuru",
+    "display_name": "GridironGuru",
+    "avatar": "aaaa1111",
+    "is_owner": true,
+    "league_id": "1124567890123456789",
+    "metadata": {
+      "team_name": "Gridiron Gurus",
+      "mention_pn": "on"
+    }
+  },
+  {
+    "user_id": "300000000000000002",
+    "username": "coachK",
+    "display_name": "CoachK",
+    "avatar": "bbbb2222",
+    "is_owner": false,
+    "league_id": "1124567890123456789"
+  },
+  {
+    "user_id": "300000000000000003",
+    "username": "punterPat",
+    "display_name": "PunterPat",
+    "avatar": null,
+    "is_owner": false,
+    "league_id": "1124567890123456789",
+    "metadata": {
+      "team_name": null
+    }
+  },
+  {
+    "user_id": "300000000000000004",
+    "username": null,
+    "display_name": "Ghost Manager",
+    "avatar": "dddd4444",
+    "league_id": "1124567890123456789",
+    "metadata": {
+      "team_name": "The Ghosts"
+    }
+  }
+]
